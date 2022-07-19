@@ -28,7 +28,7 @@
     "lib"
   ],
   "dependencies": {
-    "@dansmaculotte/vue-segment": "^0.2.9"
+    "@dansmaculotte/vue-segment": "git+https://github.com/boll-branch/vue-segment"
   },
   "devDependencies": {
     "@babel/core": "7.12.10",
