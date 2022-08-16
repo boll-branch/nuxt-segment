@@ -1,34 +1,24 @@
 {
-  "name": "@dansmaculotte/nuxt-segment",
-  "version": "0.3.13",
+  "name": "@boll-and-branch/nuxt-segment",
+  "version": "0.3.15",
   "description": "Nuxt.js module for Segment Analytics.js",
-  "license": "MIT",
-  "contributors": [
-    {
-      "name": "Dylan Wight",
-      "email": "dylan@otechie.com"
-    },
-    {
-      "name": "Gaël Reyrol",
-      "email": "gael@dansmaculotte.fr"
-    }
-  ],
+  "license": "private",
   "main": "lib/module.js",
-  "repository": "https://github.com/dansmaculotte/nuxt-segment",
+  "repository": "https://github.com/boll-branch/nuxt-segment",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "scripts": {
     "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
-    "test": "yarn run lint && jest",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "test": "npm run lint && jest",
+    "release": "git push --follow-tags && npm publish"
   },
   "files": [
     "lib"
   ],
   "dependencies": {
-    "@dansmaculotte/vue-segment": "^0.2.9"
+    "@boll-and-branch/vue-segment": "^0.2.9"
   },
   "devDependencies": {
     "@babel/core": "7.12.10",
