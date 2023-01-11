@@ -1,6 +1,6 @@
 {
   "name": "@boll-and-branch/nuxt-segment",
-  "version": "0.3.22-rc.0",
+  "version": "0.3.22-rc.1",
   "description": "Nuxt.js module for Segment Analytics.js",
   "license": "private",
   "main": "lib/module.js",
