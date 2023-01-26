@@ -1,6 +1,6 @@
 {
   "name": "@boll-and-branch/nuxt-segment",
-  "version": "0.3.19",
+  "version": "0.3.26",
   "description": "Nuxt.js module for Segment Analytics.js",
   "license": "private",
   "main": "lib/module.js",
@@ -17,9 +17,7 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "@boll-and-branch/vue-segment": "^0.2.12"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.12.10",
     "@babel/preset-env": "7.12.11",
